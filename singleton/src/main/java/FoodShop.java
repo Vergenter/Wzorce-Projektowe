@@ -1,5 +1,3 @@
-package singleton;
-
 public class FoodShop implements Shop {
     private int cost=5;
     private Boolean PaymentStatus=false;

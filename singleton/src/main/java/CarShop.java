@@ -1,5 +1,3 @@
-package singleton;
-
 public class CarShop implements Shop {
     private int cost=160000;
     private Boolean PaymentStatus=false;
