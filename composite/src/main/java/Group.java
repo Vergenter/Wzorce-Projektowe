@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 public class Group implements IItem{
     public final Map<Integer,IItem> Items;
     public final int Id;
-    public Group(int Id, Collection<Item> items){
+    public Group(int Id, Collection<IItem> items){
         this.Id=Id;
         this.Items=items.stream().collect(Collectors.toMap(IItem::getId ,item->item));
     }
