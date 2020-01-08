@@ -10,6 +10,7 @@
     <modules>
         <module>builder</module>
         <module>singleton</module>
+        <module>observer</module>
     </modules>
     <packaging>pom</packaging>
 
